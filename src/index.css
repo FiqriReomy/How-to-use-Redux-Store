@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-sm text-black leading-[20px];
+  }
+  h1 {
+    @apply font-primary text-[40px] leading-[45px] tracking-[2px] font-bold;
+  }
+  h2 {
+    @apply font-primary text-[30px] leading-[35px] tracking-[2px] font-bold;
+  }
+  h3 {
+    @apply font-primary text-[25px] leading-[30px] tracking-[2px] font-bold;
+  }
+  h4 {
+    @apply font-primary text-[15px] leading-[25px] tracking-[2px] font-bold;
+  }
+  .container {
+    @apply mx-auto max-w-[920px];
+  }
+  .submitBtn {
+    @apply py-2 px-5 bg-green-700 rounded-sm hover:bg-green-800 duration-300 active:scale-90 text-white;
+  }
+  .showBtn {
+    @apply py-2 px-5 bg-indigo-700 rounded-sm hover:bg-indigo-800 duration-300 active:scale-90 text-white;
+  }
+}
